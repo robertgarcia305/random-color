@@ -109,6 +109,7 @@ section {
 input {
     border: none;
     border-bottom: 1px solid black;
+    margin: 10px;
 }
 
 button {
@@ -120,6 +121,10 @@ button {
 button:hover {
     cursor: pointer;
     background-color: rgb(34, 34, 34);
+}
+
+section p {
+    margin: 10px 0px;
 }
 
 /* footer */
