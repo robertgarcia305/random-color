@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color Change</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A brief description of the page">
+        <meta name="keywords" content="keyword1, keyword2, keyword3">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="app">
+            <div class="page-wrap">
+                <nav>
+                    <h3>Color Generator</h3>
+                    <div class="right-side" id="open">
+                        <img src="img/bolt.png" alt="bolt">
+                        <p>Color Ideas</p>
+                    </div>
+                </nav>
+                <section>
+                    <div class="top-wrap">
+                        <div class="text-wrap">
+                            <h3>What is your favorite color?</h3>
+                            <p>Write your favorite color in the box below and watch the magic, 
+                                if you click on the get random color, you will get a random color
+                            </p>
+                        </div>
+                        <input type="text" id="input" placeholder="ex. red">
+                        <button id="button">Get Color</button>
+                        <button id="buttonRandom">Get Random Color</button>
+                    </div>
+                    <div class="bottom-wrap">
+                        <div class="circle" id="circle"></div>
+                    </div>
+                </section>
+                <div class="colorList" id="modal">
+                    <h3>Here's a list of colors if you are missing some ideas</h3>    
+                    <ol id="list">
+                    </ol>
+                    <p id="close">Close</p>
+                </div>
+                <footer><span>Created By <a target="_blank" href="https://github.com/robertgarcia305?tab=repositories">Robert Garcia</a> - 2023</span></footer>
+            </div>
+        </div>
+    </body>
+</html>
