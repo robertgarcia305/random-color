@@ -9,3 +9,9 @@ app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
     console.log("http://localhost:3000")
 });
+
+// practice
+const names = require("./names");
+
+console.log(names);
+console.log(names.johnsName);
