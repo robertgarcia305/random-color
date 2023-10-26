@@ -15,3 +15,4 @@ const names = require("./names");
 
 console.log(names);
 console.log(names.johnsName);
+names.displayName();
