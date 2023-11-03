@@ -19,6 +19,6 @@ console.log(names.johnsName);
 // since we are adding it to a variable in this file, you need to call it witht eh names.displayName() way
 names.displayName();
 
-// can also export this way, but you need some function to be called ont he file you are exporting
+// can also export this way, but you need some function to be called on the file you are exporting
 // feel free to explore this file we are exporting 
 require("./sum");
